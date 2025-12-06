@@ -1,0 +1,1028 @@
+body{
+    min-width: 1400px;
+    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.heads{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.searchbox input{
+    width: 550px;
+    height: 70px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(30, 136, 229);
+    color: white;
+}
+.searchbox input::placeholder{
+    color: white;
+    font-size: x-large;
+    padding-left: 20px;
+}
+.searchbox {
+    display: flex;
+}
+.searchbox img{
+    width: 50px;
+    height: 50px;
+    padding-left: 480px;
+    position: absolute;
+    margin-top: 10px;
+}
+.icons {  
+    margin-top: 20px;
+    padding-right: 100px;
+}
+.profile{
+    display: flex;
+    gap: 35px;
+    cursor: pointer;
+}
+.secondhead ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    font-weight: 550;
+    font-size: larger;
+}
+.secondhead ul li a{
+    text-decoration: none;
+    color: black;
+}
+.secondhead{
+    padding-left: 300px;
+    margin-top: -50px;
+}
+.password button a{
+    text-decoration: none;
+    color: black;
+}
+.mine button a{
+    text-decoration: none;
+    color: white;
+}
+.notify{
+    font-size: large;
+    background-color: #2196f3;
+    position: absolute;
+    margin-top: 2px;
+    z-index: 999;
+    padding-left: 50px;
+    color: white;
+    border-radius: 11px;
+}
+.notification{
+    padding-left: 300px;
+    display: none;
+}
+.who a{
+    text-decoration: none;
+    color: white;
+}
+.start img{
+    width: 100%;
+    position: relative;
+}
+.today{
+    position: absolute;
+    top: 150px;
+    color: white;
+    line-height: 25px;
+    padding-left: 500px;
+    width: 500px;
+}
+.learn{
+    font-size: 55px;
+}
+.lead{
+    font-size: 40px;
+}
+.tomorrow img{
+    position: absolute;
+    left: 770px;
+    margin-top: 10px;
+}
+.enquiry
+{
+    border: none;
+    background-color: rgb(30, 136, 229);
+    color: white;
+    font-size: large;
+    border-radius: 11px;
+    padding: 11px;
+    height: 50px;
+    width: 150px;
+}
+.expert{
+    font-size: large;
+    font-weight: 550;
+    text-align: center;
+}
+.instructor{
+    display: flex;
+    gap: 50px;
+    padding-left: 130px;
+    margin-bottom: 70px;
+}
+.choose{
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.7);
+    border-radius: 15px;
+}
+.choose img{
+     height: 220px;
+    width: 200px;
+}
+.design{
+    background-color: rgb(30, 136, 229);
+    width: 266px;
+    text-align: center;
+    padding: 7px;
+    line-height: 2px;
+    color: white;
+    margin-top: -37px;
+}
+.design button{
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+}
+.popular{
+    border-radius:55px;
+}
+.star{
+    display: flex;
+    justify-content: center;
+}
+.star img{
+    width: 10px;
+    height: 10px;
+    margin-top: 11px;
+}
+.month img{
+    width: 280px;
+    position: relative;
+}
+.subscribe{
+    display: flex;
+    gap: 85px;
+    padding-left: 70px;
+    overflow-x: scroll;
+}
+.subscribe::-webkit-scrollbar{
+    display: none;
+}
+.free{
+    background-color: rgb(30, 136, 229);
+    width: 240px;
+    line-height: 2px;
+    margin-top: -19px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+.library img{
+    width: 250px;
+    border-radius: 5px;
+}
+.free button{
+    border: none;
+    border-radius:5px;
+    padding: 5px;
+}
+.btn{
+    display: flex;
+    padding-left: 55px;
+}
+.btn img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: -20px;
+}
+.btn button{
+    width: 110px;
+}
+.planning{
+    display: flex;
+    justify-content: space-around;
+}
+.library{
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.8);
+    border-radius: 11px;
+}
+.screen{
+    display: flex;
+   
+    color: white;
+    padding: 18px;
+    gap: 5px;
+}
+.help{
+    display: flex;
+    justify-content: space-around;
+     background-color: rgb(30, 136, 229);
+     height: 180px;
+}
+.emily{
+    display: flex;
+    margin-top: -50px;
+    justify-content: space-around;
+    color: white;
+    font-size: larger;
+}
+.morey{
+    border: 1px solid black;
+    border-radius: 7px;
+    width: fit-content;
+    padding: 11px;
+}
+.morey img{
+    width: 200px;
+    height: 200px;
+}
+.web{
+    display: flex;
+    justify-content: space-around;
+}
+.question{
+    background-color: rgb(30, 136, 229);
+    width: fit-content;
+    padding: 5px;
+}
+.down{
+    display: flex;
+    justify-content: space-around;
+}
+.down img{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+}
+.ask{
+    padding-left: 450px;
+    margin-top: 20px;
+}
+.certificate p{
+    padding-left: 30px;
+}
+.footing{
+    display: flex;
+    justify-content: space-around;
+    text-shadow: 0px 4px 8px rgba(0,0,0,0.4);
+}
+.listing{
+    display: flex;
+    gap: 50px;
+}
+.listing ul{
+    list-style: none;
+    font-size: larger;
+}
+.follow{
+    text-align: right;
+}
+.terms{
+    text-align: center;
+    line-height: 1.5px;
+}
+footer{
+    background-color: rgb(245, 250, 208);
+    margin-top: 50px;
+}
+.browse{
+    margin-top: 35px;
+}
+.heart{
+    position:relative;
+    top: -220px;
+    left: 230px;
+}
+.heart img{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+.rack img{
+    width: 100%;
+}
+.course{
+    position: relative;
+    top: -325px;
+    color: white;
+    letter-spacing: 2px;
+}
+.subscribers{
+    display: flex;
+    margin-top: -150px;
+    justify-content: space-around;
+    margin-bottom: 180px;
+}
+.rupee{
+    display: grid;
+    grid-template-areas: "sidebar mainbar";
+    gap: 80px;
+    color: white;
+    border-radius: 11px;
+}
+.sidebar{
+    grid-area: sidebar;
+    width: 300px;
+    line-height: 50px;
+    background-color: rgb(30, 136, 229);
+    border-radius: 11px;
+    font-size: large;
+}
+.mainbar{
+    grid-area: mainbar;
+    display: grid;
+    grid-template-columns: repeat(4,270px);
+    gap: 110px;
+    overflow-x: scroll;
+}
+.mainbar::-webkit-scrollbar{
+    display: none;
+}
+.mainone{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 55px;
+}
+.mainone::-webkit-scrollbar{
+    display: none;
+}
+.maintwo{
+    display: flex;
+    gap: 100px;
+    overflow-x: scroll;
+}
+.maintwo::-webkit-scrollbar{
+    display: none;
+}
+.matching{
+    display: flex;
+    background-color: rgb(30, 136, 229);
+    width: 400px;
+    border-radius: 11px;
+    color: white;
+    padding: 5px;
+}
+.matching img{
+    width: 200px;
+    border-radius: 11px;
+}
+.matching button{
+    padding: 4px;
+    border: none;
+    border-radius: 5px;
+}
+.rockers{
+    display: flex;
+    justify-content: space-around;
+}
+.matching .full{
+    padding: 4px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+.discover{
+    display: flex;
+    margin-bottom: 25px;
+    justify-content: center;
+    gap: 100px;
+}
+.blogimg{
+    border: 1px solid black;
+}
+.blogimg img{
+    width: 250px;
+}
+.why{
+    width: 400px;
+}
+.notes{
+    padding-left: 100px;
+}
+.contacts img{
+    width: 100%;
+}
+.loved{
+    position: absolute;
+    top: 150px;
+    font-size: xx-large;
+    line-height: 35px;
+    padding-left: 50px;
+}
+.better{
+    padding-left: 100px;
+}
+.subject{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.subject img{
+    width: 550px;
+}
+.create{
+    width: 550px;
+    font-size: larger;
+}
+.missions{
+    display: flex;
+    justify-content: space-around;
+}
+tr,th{
+    padding: 25px;
+    border-collapse: collapse;
+    border: none;
+}
+tr,td{
+    padding: 25px;
+    font-size: larger;
+    text-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    
+}
+.tab{
+    padding-left: 150px;
+}
+.tab tr th{
+    background-color: rgb(30, 136, 229);
+    color: white;
+}
+table {
+    border-collapse: collapse;
+    width: 90%;
+}
+
+.inclusive{
+
+    display: grid;
+    grid-template-areas: "sider maincourse";
+}
+.sider{
+    background-color: rgb(30, 136, 229);
+    width: 300px;
+    color: white;
+    line-height: 45px;
+    font-size: large;
+    padding-left: 50px;
+}
+.offer img{
+    width: 1000px;
+    height: 400px;
+}
+.script{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(30, 136, 229);
+    width: 980px;
+    color: white;
+    padding: 10px;
+    margin-top: -20px;
+}
+.progress{
+    width: 90%;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.progressbar{
+    height: 100%;
+    width: 60%;
+    background: #2196f3;
+    border-radius: 20px;
+}
+.arrow{
+    display: flex;
+    gap: 800px;
+    border: 1px solid black;
+    margin-top: 25px;
+    width: 90%;
+}
+.arrow img{
+    width: 24px;
+    height: 24px;
+    margin-top: 20px;
+}
+.pendings{
+    display: flex;
+    gap: 600px;
+}
+.progressone{
+    width: 80%;
+    height: 15px;
+    background-color: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.progressbarone{
+    height: 100%;
+    width: 60%;
+    background: #2196f3;
+    border-radius: 20px;
+}
+.second{
+    border: 1px solid black;
+    width: 750px;
+    padding: 15px;
+}
+.minutes{
+    padding-left: 350px;
+    margin-top: 50px;
+}
+.progresstwo{
+    width: 70%;
+    height: 7px;
+    background-color: #ddd7d7;
+    border-radius: 11px;
+    overflow: hidden;
+}
+.progressbartwo{
+    height: 100%;
+    width: 70%;
+    background: #2196f3;
+
+}
+.what{
+     padding-left: 500px;
+}
+.interface{
+    /* padding:5px 500px; */
+    line-height: 15px;
+   background-color: #ddd;
+      width: 600px;
+        height: 60vh;
+        padding: 15px;
+  
+   
+}
+.container{
+    padding-left: 100px;
+    background-color: rgb(86, 84, 84);
+    width: 550px;
+    padding: 10px;
+}
+.interface button{
+    background-color: #2196f3;
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    font-size: larger;
+    margin-top: 5px;
+}
+.nxtbtn{
+    padding-left: 200px;
+}
+.mark{
+    display: flex;
+    gap: 15px;
+}
+.mark img{
+    width: 30px;
+    height: 30px;
+}
+.browsing{
+    border: 1px solid black;
+    width: 700px;
+    font-size: larger;
+    padding: 15px;
+}
+
+.success{
+    padding-left: 450px;
+}
+.right p{
+    border: 1px solid black;
+    width: 700px;
+    padding: 15px;
+}
+.right{
+    padding-left: 450px;
+}
+.rightone{
+    border: 1px solid black;
+    padding: 15px;
+    width: 310px;
+}
+.rights{
+    display: flex;
+    padding-left: 450px;
+    gap: 50px;
+    margin-bottom: 25px;
+}
+.checks button{
+    background-color: #2196f3;
+    color: white;
+    width: 250px;
+    border-radius: 11px;
+    border: none;
+    padding: 15px;
+    font-size: larger;
+}
+.checks{
+    padding-left: 850px;
+}
+.nort{
+    display: flex;
+    justify-content: center;
+   
+}
+.educate{
+    display: flex;
+}
+.educate img{
+    width: 80px;
+}
+.studies{
+    width: 550px;
+    font-size: larger;
+     background-color: #2196f3;
+     color: white;
+     padding: 10px;
+     height: 500px;
+}
+.scan{
+    display: flex;
+    gap: 75px;
+}
+.sign{
+    display: flex;
+    font-size: medium;
+    gap: 25px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.forever{
+    display: flex;
+    gap: 11px;
+}
+.forever input{
+    width: 250px;
+    padding: 11px;
+    background-color: #2196f3;
+    border: none;
+    border-radius: 8px;
+}
+.password button{
+    width: 270px;
+    padding: 20px;
+    font-size: larger;
+}
+.gender input{
+     width: 530px;
+    padding: 11px;
+    background-color: #2196f3;
+    border: none;
+    border-radius: 8px;
+}
+.gender{
+    padding-left: 10px;
+}
+.gender button{
+    padding: 11px;
+    width: 250px;
+    border: none;
+    background-color: #2196f3;
+    color: white;
+    font-size: larger;
+    border-radius: 11px;
+}
+.ten{
+    background-color: #2196f3;
+    color: white;
+      border-radius: 11px;
+}
+.five{
+    background-color: white;
+    color: black;
+      border-radius: 11px;
+}
+.methods{
+    display: flex;
+    gap: 50px;
+    background-color: #2196f3;
+    height: fit-content;
+    color: white;
+    padding: 11px;
+    border-radius: 7px;
+}
+.online{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2196f3;
+    color: white;
+    border-radius: 11px;
+}
+.online img{
+    width: 150px;
+}
+.accept{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+.accept button{
+    border-radius: 11px;
+    padding: 11px;
+    width: 250px;
+    font-size: larger;
+}
+.mine button{
+    background-color: #2196f3;
+    border: none;
+    color: white;
+    width: 250px;
+    padding: 11px;
+    font-size: larger;
+    border-radius: 11px;
+}
+.mine{
+    margin-top: 30px;
+    padding-left: 350px;
+}
+.forgot label{
+    font-size: larger;
+}
+.forgot input{
+    width: 450px;
+    padding: 11px;
+    background-color: #2196f3;
+    border: none;
+    border-radius: 11px;
+}
+.forgot input::placeholder{
+    color: white;
+}
+.forgot button{
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    padding: 11px;
+    border-radius: 11px;
+    font-size: larger;
+}
+.yes button{
+    border: none;
+    padding: 17px;
+    background-color: #2196f3;
+    color: white;
+    font-size: large;
+    border-radius: 11px;
+}
+.yes{
+    padding-left: 130px;
+}
+.logging{
+    margin-top: 50px;
+}
+.accounting{
+    width: 250px;
+    background-color: #2196f3;
+    color: white;
+    font-size: larger;
+    padding: 11px;
+    line-height: 10px;
+}
+.manage{
+    display: flex;
+}
+.manage img{
+    width: 30px;
+    height: 30px;
+    margin-top:11px;
+}
+.essential{
+    padding-left: 1050px;
+    position: absolute;
+    margin-top: 4px;
+    z-index: 999;
+    display: none;
+}
+.essential p a{
+    text-decoration: none;
+    color: white;
+}
+.pays{
+    background-color: white;
+    border-radius: 11px;
+    width: 250px;
+    padding: 11px;
+    display: flex;
+    gap: 15px;
+    padding-left: 90px;
+}
+.details button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.details{
+    background-color: #2196f3;
+    width: 350px;
+    text-align: center;
+    color: white;
+    padding: 25px;
+    border-radius: 7px;
+    margin-top: 25px;
+    position: absolute;
+    left: 500px;
+    display: none;
+}
+.average{
+
+    background-color: #2196f3;
+    width: 350px;
+    color: white;
+    padding: 25px;
+    border-radius: 7px;
+    margin-top: 25px;
+    position: absolute;
+    left: 500px;
+    display: none;
+}
+.average input{
+    width: 300px;
+}
+.confirmbtn button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.nxtbtn a{
+    text-decoration: none;
+    color: white;
+}
+.checks button a{
+    text-decoration: none;
+    color: white;
+}
+.confirmbtn{
+    padding-left: 110px;
+}
+.passing button a{
+    text-decoration: none;
+    color: white;
+}
+.tick{
+    background-color: #2196f3;
+    width: 350px;
+    height: 200px;
+    border-radius: 11px;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    font-size: larger;
+    position: absolute;
+    top: 525px;
+    left: 500px;
+    display: none;
+}
+.photoshop{
+    display: flex;
+    gap:50px;
+}
+.figma{
+    display: flex;
+    gap :50px;
+}
+.shop{
+    display: flex;
+    gap: 50px;
+}
+.sub{
+    width: 250px;
+    border: none;
+    padding: 15px;
+    background-color: #2196f3;
+    color: white;
+    font-size: larger;
+    border-radius: 11px;
+}
+.subbtn{
+    padding-left: 200px;
+    margin-top: 50px;
+}
+.keys .offer img{
+    width: 750px;
+}
+.keys .script{
+    width: 730px;
+    border-radius: 11px;
+}
+.keys{
+    border-radius: 11px;
+}
+.globe img{
+    width: 550px;
+    height: 300px;
+    border-radius: 11px;
+    flex-shrink: 0;
+}
+.plating::-webkit-scrollbar{
+    display: none;
+}
+.globe p{
+    font-size: larger;
+    font-weight: 550;
+}
+.plating{
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    animation: scrolls 7s infinite;
+    margin-top: 50px;
+    }
+.teams{
+    display: flex;
+    gap: 50px;
+    padding: 15px;
+}
+.teams input{
+    padding: 15px;
+}
+.age{
+    padding-left: 15px;
+}
+.age input{
+    width: 460px;
+    padding: 15px;
+}
+.quick{
+    padding-left: 15px;
+}
+.quick textarea{
+    width: 490px;
+}
+.tomorrow button a{
+    text-decoration: none;
+    color: white;
+}
+.graph a{
+    text-decoration: none;
+    color: white;
+}
+.popular a{
+    text-decoration: none;
+    color: white;
+}
+.document{
+    background-color: #2196f3;
+    width: 600px;
+    padding-left: 50px;
+}
+.subbtn button a{
+    text-decoration: none;
+    color: white;
+}
+.minutes a{
+    text-decoration: none;
+    color: black;
+}
+.analyze{
+    display: flex;
+       justify-content: center;
+       height: 550px;
+       margin-top: 50px;
+       color: white;
+}
+.analyze img{
+    height: 550px;
+}
+.passing{
+    font-size: larger;
+    font-weight: 550;
+    padding-left: 300px;
+    margin-top: 170px;
+}
+.passing button{
+    width: 250px;
+    border: none;
+    background-color: #2196f3;
+    color: white;
+    font-size: larger;
+    padding: 11px;
+    border-radius: 11px;
+}
+@keyframes scrolls{
+    0%{
+        transform: translateX(0px);
+    }50%{
+        transform: translateX(100px);
+    }
+    100%{
+        transform: translateX(-400px);
+    }
+}
